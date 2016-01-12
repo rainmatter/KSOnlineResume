@@ -8,29 +8,66 @@ CSS sheet
 */
 
 /*Start containers as hidden.*/
-#resume-content, #projects-content {
+#resume-content, #projects-content, #dessum-content, #contact-content {
     display: none;
 }
 
-/*Nav-bar styles*/
+/***Nav-bar styles***/
+
+/*Size adjustment*/
 .navbar {
     padding-top: 4px;
     padding-bottom: 4px;
-    
 }
 .navbar-nav > li > a { 
     padding-top: 7px !important; 
     padding-bottom: 7px !important; }
-.navbar { min-height: 32px !important; }
+.navbar { 
+    min-height: 32px !important; 
+}
 
+/*Color adjustment*/
+/*
 .navbar-style {
   background: #ffffff;
-  color: #071A26;
+  //color: #071A26;
 }
+
+.navbar-inverse .navbar-nav > .open > a {
+    background: beige;
+    color: green;
+}
+.navbar-style .navbar-nav > .active > a:focus {
+  background: #C7D9FC;
+  color: blueviolet;
+  //color: #071A26;
+}*/
 .navbar-style .navbar-nav > .active > a {
   background: #C7D9FC;
-  color: #071A26;
+  color: #1A6063;
+  font-weight: 600;
 }
+.navbar-style .navbar-nav > .active > a:hover {
+  background: #C7D9FC;
+  color: #1A6063;
+}
+.navbar-style .navbar-nav > .active > a:focus {
+  background: #C7D9FC;
+  color: #1A6063;
+}
+.navbar-style .navbar-nav > .open > a {
+  background: #C7D9FC;
+  color: #1A6063;
+}
+.navbar-style .navbar-nav > .open > a:hover {
+  background: #C7D9FC;
+  color: #1A6063;
+}
+.navbar-style .navbar-nav > .open > a:focus {
+  background: #C7D9FC;
+  color: #1A6063;
+}
+
 
 /*Jobostron & header*/
 .jumbotron {
@@ -48,22 +85,19 @@ CSS sheet
 }
 
 .content-section, .content-header {
-    background: #E8FBFF;
+    background: #F7FFFF;
     padding-left: 40px;
     padding-right: 40px;
 }
 
 .content-section {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .content-header {
     padding-top: 20px;
 }
 
-.container {
-    
-}
 
 footer {
     background: #356382;
