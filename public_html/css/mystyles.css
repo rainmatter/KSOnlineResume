@@ -1,0 +1,13 @@
+/*
+Online Resume
+CSS sheet
+ 
+    Created on : Jan 12, 2016, 12:50:45 PM
+    Author     : Kimberly Stewart
+    Last updated: 1/11/2016
+*/
+
+#resume-content, #projects-content {
+    display: none;
+}
+
