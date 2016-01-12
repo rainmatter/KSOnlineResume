@@ -36,12 +36,12 @@ Last updates: 1/11/2016
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">Cover Letter <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Design Summary</a></li>
-                        <li><a href="#">Contact</a></li>
+                    <ul class="nav navbar-nav navbar-right" id="navigation-bar">
+                        <li class="active" id="cl-link"><a onclick="switchContent('cl-link');" href="#">Cover Letter <span class="sr-only">(current)</span></a></li>
+                        <li class="" id="res-link"><a onclick="switchContent('res-link');" href="#">Resume</a></li>
+                        <li id="proj-link"><a onclick="switchContent('proj-link');" href="#">Projects</a></li>
+                        <li id="ds-link"><a  onclick="switchContent('ds-link');" href="#">Design Summary</a></li>
+                        <li id="con-link"><a onclick="switchContent('con-link');" href="#">Contact</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -77,10 +77,10 @@ Last updates: 1/11/2016
 
 
         <!-- Begin Cover Letter content -->
-        <div class="container">
+        <div class="container" id="cover-letter-content">
             <div class="">
                 <div class="row">
-                    <div class="col-xs-12 col-md-offset-2 col-md-8 content-section content-header">
+                    <div class="col-xs-12 col-md-offset-2 col-md-8 content-header">
                         <h1>Cover Letter</h1>
                         <hr>
                     </div>
@@ -88,12 +88,15 @@ Last updates: 1/11/2016
                 <div class="row row-content">
                     <div class="col-xs-12 col-md-offset-2 col-md-8 content-section">
                         <p>Dear Hiring Manager:</p>
+                        <p style="padding:10px;"></p>
                         <p>I am writing to express my interest in you position on Indeed.com as a Web Producer at Eventcore in Seattle, WA. Having recently completed a Bachelor of Science in Computer Science and Systems from University of Washington Tacoma, I am looking for an entry level position in the web development field and am confident that I can make a positive contribution to a software development team.</p>
                         <p>I have skills in multiple areas of the software development life cycle, including collecting and analyzing requirements, OOP design with UML diagrams, database design, and unit testing. I am currently working to develop my skills in front-end and full-stack web development, focusing on jQuery, Angular.js, Node.js, and Bootstrap. I also have a strong passion for UX design, including accessibility. One of my main strengths is in relational database design, including normalization and ER diagrams. I originally learned HTML and CSS through W3 Schools and by copying and changing existing web sites. I continue to keep up with new industry techniques like HTML5 and CSS preprocessors through online classes like the ones on Coursera, Udacity and Microsoft Virtual Academy.</p>
                         <p>I believe I would be a versatile member of a web development team and able to learn new skills quickly and fill in for other areas as needed. I currently live in Federal Way, WA and plan on moving closer to Seattle in the near future. My salary requirements are $38,000 to $40,000 and I can start working as soon as possible. I look forward to the opportunity to use my skills to contribute to the growth of your company. Please call me at 253-334-9561 or email at stewak5@uw.edu to arrange an interview. Thank you for your consideration and I look forward to hearing more about this opportunity!</p>
                         <p>Sincerely,</p>
+                        <p style="padding:10px;"></p>
                         <p>Kimberly Stewart</p>
-                        <p>Last updated: 1/11/2016</p>
+                        <p style="padding:10px;"></p>
+                        <p><em>Last updated: 1/11/2016</em></p>
                     </div>
                 </div>
             </div>
@@ -281,7 +284,8 @@ Last updates: 1/11/2016
         <script src="jquery/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="bootstrap/js/bootstrap.min.js"></script>
-
+        <!-- My js file -->
+        <script src="js/resumejavascript.js"></script>
 
     </body>
 </html>
