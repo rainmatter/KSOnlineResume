@@ -7,30 +7,91 @@ Last updates: 1/11/2016
 -->
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Kimberly Stewart- Online Resume</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
     </head>
     <body>
 
         <!-- Begin header.-->
-        <header>
-            <h1>Kimberly A. Stewart</h1>
-            <p>
-                Address:<br />
-                29935 2nd Ave S.<br />
-                Federal Way, WA
-            </p>
-            <p>
-                Phone:<br />
-                Email:<br />
-                LinkedIn: <br />
-                GitHub:
-            </p>
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-xs-12 col-sm-12 text-center">
+                        <!-- Header image -->
+                        <img style="margin: auto;" alt="Rose" src="img/rose_placeholder.png" class="img-responsive">
+                        <!-- Header title -->
+                        <h1>Kimberly A. Stewart</h1>
+                        <!-- header tag line -->
+                        <p>Web developer</p>
+                    </div> 
+                </div>
+            </div>
         </header>
         <!-- End header. -->
+        
+        
+        
+        
+
 
         <!-- begin navigation -->
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Cover Letter <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Design Summary</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!-- End navigation -->
+
+        
+         <div class="container">
+            <!-- Carousel component -->
+            <div class="row row-content">
+                <div class="col-xs-12">
+                    <h1>Cover Letter</h1>
+                    <p>Dear Hiring Manager:</p>
+                    <p>I am writing to express my interest in you position on Indeed.com as a Web Producer at Eventcore in Seattle, WA. Having recently completed a Bachelor of Science in Computer Science and Systems from University of Washington Tacoma, I am looking for an entry level position in the web development field and am confident that I can make a positive contribution to a software development team.</p>
+                    <p>I have skills in multiple areas of the software development life cycle, including collecting and analyzing requirements, OOP design with UML diagrams, database design, and unit testing. I am currently working to develop my skills in front-end and full-stack web development, focusing on jQuery, Angular.js, Node.js, and Bootstrap. I also have a strong passion for UX design, including accessibility. One of my main strengths is in relational database design, including normalization and ER diagrams. I originally learned HTML and CSS through W3 Schools and by copying and changing existing web sites. I continue to keep up with new industry techniques like HTML5 and CSS preprocessors through online classes like the ones on Coursera, Udacity and Microsoft Virtual Academy.</p>
+                    <p>I believe I would be a versatile member of a web development team and able to learn new skills quickly and fill in for other areas as needed. I currently live in Federal Way, WA and plan on moving closer to Seattle in the near future. My salary requirements are $38,000 to $40,000 and I can start working as soon as possible. I look forward to the opportunity to use my skills to contribute to the growth of your company. Please call me at 253-334-9561 or email at stewak5@uw.edu to arrange an interview. Thank you for your consideration and I look forward to hearing more about this opportunity!</p>
+                    <p>Sincerely,</p>
+                    <p>Kimberly Stewart</p>
+                    <p>Last updated: 1/11/2016</p>
+                </div>
+            </div>
+         </div>
+         
+         
+         
+         
+         
+         
+         
         <nav>
             <ul>
                 <li><a href="#">Cover Letter</a></li>
@@ -39,7 +100,26 @@ Last updates: 1/11/2016
                 <li><a href="#">Design Summary</a></li>
                 <li><a href="#">Contact</a></li>
         </nav>
-        <!-- End navigation -->
+        
+        
+        
+            
+        <div>
+                        <p>
+                            Address:<br />
+                            29935 2nd Ave S.<br />
+                            Federal Way, WA
+                        </p>
+                        <p>
+                            Phone:<br />
+                            Email:<br />
+                            LinkedIn: <br />
+                            GitHub:
+                        </p>
+                    </div>
+        
+
+       
 
         <section>
             <div>
@@ -106,7 +186,7 @@ Last updates: 1/11/2016
                 </div>
                 <div>
                     <h2>Other Skills</h2>
-                    <p>Angular.js, Node.js, Python, SQL, XML, graphics and graphic design, drawing, illustration, digital painting.</p>
+                    <p>Angular.js, Node.js, Python, SQL, XML, graphics and graphic design, drawing, illustration, digital painting, Photoshop, Illustrator.</p>
                 </div>
                 <div>
                     <h2>Work History</h2>
@@ -136,5 +216,11 @@ Last updates: 1/11/2016
         <!-- End footer -->
 
 
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="jquery/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        
+        
     </body>
 </html>
