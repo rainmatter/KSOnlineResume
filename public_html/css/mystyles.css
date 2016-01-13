@@ -18,6 +18,7 @@ CSS sheet
 .navbar {
     padding-top: 4px;
     padding-bottom: 4px;
+    padding-right: 15px;
 }
 .navbar-nav > li > a { 
     padding-top: 7px !important; 
