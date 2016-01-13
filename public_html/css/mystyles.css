@@ -1,10 +1,10 @@
 /*
 Online Resume
-CSS sheet
+CSS sheet for my custom styles.
  
     Created on : Jan 12, 2016, 12:50:45 PM
     Author     : Kimberly Stewart
-    Last updated: 1/11/2016
+    Last updated: 1/12/2016
 */
 
 /*Start containers as hidden.*/
@@ -28,21 +28,6 @@ CSS sheet
 }
 
 /*Color adjustment*/
-/*
-.navbar-style {
-  background: #ffffff;
-  //color: #071A26;
-}
-
-.navbar-inverse .navbar-nav > .open > a {
-    background: beige;
-    color: green;
-}
-.navbar-style .navbar-nav > .active > a:focus {
-  background: #C7D9FC;
-  color: blueviolet;
-  //color: #071A26;
-}*/
 .navbar-style .navbar-nav > .active > a {
   background: #C7D9FC;
   color: #1A6063;
@@ -70,7 +55,7 @@ CSS sheet
 }
 
 
-/*Jobostron & header*/
+/*Jumbotron & header*/
 .jumbotron {
     background: #ffffff;
     padding-top: 70px;
@@ -166,9 +151,6 @@ footer a:hover {
     color: #A694D1;
 }
 
-.indent {
-    text-indent: 25px;
-}
 
 /*Project styles*/
 .media-object {

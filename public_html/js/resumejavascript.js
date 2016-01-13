@@ -1,36 +1,37 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/*
+Online Resume
+JavaScript file that manages which content is being viewed.
+ 
+    Created on : Jan 12, 2016, 12:50:45 PM
+    Author     : Kimberly Stewart
+    Last updated: 1/12/2016
+*/
 
 var activeElement = "cl-link";
 
 function switchContent(newLink) {
     
-
-    document.getElementById(activeElement).classList.remove("active");
-
-    document.getElementById(newLink).classList.add("active");
-    
+    //If the page is changing.
     if (activeElement !== newLink) {
+        //Remove the active class from the current page.
+        document.getElementById(activeElement).classList.remove("active");
+        //Add the active class to the page that was clicked on.
+        document.getElementById(newLink).classList.add("active");
+
+        //Hide the previous page content.
         //console.log(newLink);
         if (activeElement === "cl-link") {
-            console.log(newLink);
             document.getElementById("cover-letter-content").style.display="none";
         } else if (activeElement === "res-link") {
-            console.log(newLink);
             document.getElementById("resume-content").style.display="none";
         } else if (activeElement === "proj-link") {
-            console.log(newLink);
             document.getElementById("projects-content").style.display="none";
         } /*else if (activeElement === "ds-link") {
-            console.log(newLink);
             document.getElementById("dessum-content").style.display="none";
         }*/ else if (activeElement === "con-link") {
-            console.log(newLink);
             document.getElementById("contact-content").style.display="none";
         }
+        //Show the current page content
         if (newLink === "cl-link") {
             document.getElementById("cover-letter-content").style.display="block";
         } else if (newLink === "res-link") {
@@ -43,6 +44,7 @@ function switchContent(newLink) {
             document.getElementById("contact-content").style.display="block";
         } 
     }
+    //Set the active element as the new content
     activeElement = newLink;
 };
 
