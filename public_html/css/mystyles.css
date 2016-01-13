@@ -75,6 +75,17 @@ CSS sheet
     padding-top: 70px;
     padding-bottom: 0px;
 }
+#page-title {
+    color: #16637D;
+    font-variant: small-caps;
+    font-size: 60px;
+}
+#page-sub-title {
+    color: #0D4D42;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 16px;
+}
 
 
 /*Content area*/
