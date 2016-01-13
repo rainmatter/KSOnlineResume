@@ -129,10 +129,33 @@ CSS sheet
     font-family: "Georgia", "Times New Roman", "serif";
     letter-spacing: 5px;
 }
+.content-title-hr {
+    width: 60%;
+    border-top: 1px solid #ddd;
+}
 
-
+/*Footer styles*/
 footer {
     background: #356382;
     color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+footer a {
+    color: #A694D1;
+}
+
+footer a:hover {
+    color: #3E3557;
+}
+
+
+
+.contact-labels {
+    font-weight: 600;
+    font-size: 15px;
+    color: #D6FFFF;
 }
 
