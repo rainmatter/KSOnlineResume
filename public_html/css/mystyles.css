@@ -165,3 +165,7 @@ footer a:hover {
 .panel em {
     color: #A694D1;
 }
+
+.indent {
+    text-indent: 25px;
+}
