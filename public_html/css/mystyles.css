@@ -94,6 +94,9 @@ CSS sheet
 
 
 /*Content area*/
+.container {
+    padding-bottom: 20px;
+}
 .content-area {
     background: #BDF1FF;
     padding-top: 20px;
@@ -104,14 +107,27 @@ CSS sheet
     background: #F7FFFF;
     padding-left: 40px;
     padding-right: 40px;
+    border-style: solid;
+    border-color: #A7C9C4;
+    border-width: 10px;
+    
 }
 
 .content-section {
     padding-bottom: 40px;
+    border-top: none;
 }
 
 .content-header {
     padding-top: 20px;
+    border-bottom: none;
+}
+.content-title {
+    color: #16637D;
+    font-variant: small-caps;
+    font-size: 40px;
+    font-family: "Georgia", "Times New Roman", "serif";
+    letter-spacing: 5px;
 }
 
 
