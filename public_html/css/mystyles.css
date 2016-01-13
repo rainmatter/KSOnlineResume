@@ -151,12 +151,17 @@ footer a {
 footer a:hover {
     color: #3E3557;
 }
-
-
-
 .contact-labels {
     font-weight: 600;
     font-size: 15px;
     color: #D6FFFF;
 }
 
+/*Resume styles*/
+.res-leaders {
+    font-weight: 600;
+}
+
+.panel em {
+    color: #A694D1;
+}
