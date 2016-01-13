@@ -79,12 +79,17 @@ CSS sheet
     color: #16637D;
     font-variant: small-caps;
     font-size: 60px;
+    font-family: "Georgia", "Times New Roman", "serif";
 }
 #page-sub-title {
     color: #0D4D42;
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 16px;
+}
+#page-title-hr {
+    width: 60%;
+    border-top: 1px solid #ccc;
 }
 
 
