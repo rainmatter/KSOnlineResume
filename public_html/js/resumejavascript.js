@@ -14,7 +14,7 @@ function switchContent(newLink) {
     document.getElementById(newLink).classList.add("active");
     
     if (activeElement !== newLink) {
-        console.log(newLink);
+        //console.log(newLink);
         if (activeElement === "cl-link") {
             console.log(newLink);
             document.getElementById("cover-letter-content").style.display="none";
@@ -24,10 +24,10 @@ function switchContent(newLink) {
         } else if (activeElement === "proj-link") {
             console.log(newLink);
             document.getElementById("projects-content").style.display="none";
-        } else if (activeElement === "ds-link") {
+        } /*else if (activeElement === "ds-link") {
             console.log(newLink);
             document.getElementById("dessum-content").style.display="none";
-        } else if (activeElement === "con-link") {
+        }*/ else if (activeElement === "con-link") {
             console.log(newLink);
             document.getElementById("contact-content").style.display="none";
         }
@@ -37,9 +37,9 @@ function switchContent(newLink) {
             document.getElementById("resume-content").style.display="block";
         } else if (newLink === "proj-link") {
             document.getElementById("projects-content").style.display="block";
-        } else if (newLink === "ds-link") {
+        } /*else if (newLink === "ds-link") {
             document.getElementById("dessum-content").style.display="block";
-        } else if (newLink === "con-link") {
+        }*/ else if (newLink === "con-link") {
             document.getElementById("contact-content").style.display="block";
         } 
     }
