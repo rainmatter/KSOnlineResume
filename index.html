@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<!--
+Online Resume
+Author: Kimberly Stewart
+Created: 1/11/2016
+Last updates: 1/12/2016
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Kimberly Stewart- Online Resume</title>
+        <link rel="shortcut icon" href="img/favicon.ico">
+
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+        <!-- My CSS style sheet -->
+        <link href="css/mystyles.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- begin navigation -->
+
+        <nav class="navbar navbar-default navbar-fixed-top navbar-style">
+            <div class="container-fluid">
+                <!-- Toggle for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Links in the navbar -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right" id="navigation-bar">
+                        <!-- Functions for switching between content. -->
+                        <li class="active" id="cl-link"><a onclick="switchContent('cl-link');" href="#">Cover Letter <span class="sr-only">(current)</span></a></li>
+                        <li class="" id="res-link"><a onclick="switchContent('res-link');" href="#">Resume</a></li>
+                        <li id="proj-link"><a onclick="switchContent('proj-link');" href="#">Projects</a></li>
+                        <!--<li id="ds-link"><a  onclick="switchContent('ds-link');" href="#">Design Summary</a></li>-->
+                        <li id="con-link"><a onclick="switchContent('con-link');" href="#">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!-- End navigation -->
+
+
+
+        <!-- Begin header.-->
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-xs-12 col-sm-12 text-center">
+                        <!-- Header image -->
+                        <img style="margin: auto;" alt="Rose" src="img/rose_placeholder.png" class="img-responsive">
+                        <!-- Header title -->
+                        <h1 id="page-title">Kimberly A. Stewart</h1>
+                        <hr id="page-title-hr">
+                        <!-- header tag line -->
+                        <p id="page-sub-title">WEB DEVELOPER</p>
+                    </div> 
+                </div>
+            </div>
+        </header>
+        <!-- End header. -->
+
+
+
+        <!-- white box style around content -->
+        <div class="content-area">
+
+
+            <!-- Begin Cover Letter content -->
+            <div class="container" id="cover-letter-content">
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-2 col-md-8 content-header text-center">
+                        <h1 class="content-title">cover letter</h1>
+                        <hr class="content-title-hr">
+                    </div>
+                </div>
+                <div class="row row-content">
+                    <div class="col-xs-12 col-md-offset-2 col-md-8 content-section">
+                        <p>Date: January 28, 2016</p>
+                        <p style="padding:10px;"></p>
+                        <p>Dear Hiring Manager:</p>
+                        <p style="padding:10px;"></p>
+                        <p>I am writing to express my interest in a position as a Software Developer with a specialization in Front-end or Full-stack web development at your company. Having recently completed a Bachelor of Science in Computer Science and Systems from University of Washington Tacoma, I am confident that I can make a positive contribution to a software development team.</p>
+                        <p>I have skills in multiple areas of the Agile software development life cycle, including collecting and analyzing requirements, OOP design with UML diagrams, database design, and unit testing. I am currently working to develop my skills in front end and responsive UI design, focusing on jQuery, Angular.js, Node.js, web services and Bootstrap. I also have a strong personal passion for UX design and have classroom experience in Human-centered design, learning to advocate for user needs, including accessibility. I also enjoy working directly with users to gain a more intimate knowledge of their experience in order to optimize functionality and usability.</p>
+                        <p>I believe I would be a good fit for a role with your company due to my ability to quickly learn and apply new skills and tools. I look forward to the opportunity to use my skills to contribute to the growth of your company. Please call me at 253-334-9561 or email at stewak5@uw.edu to arrange an interview. Thank you for your consideration and I look forward to hearing more about this opportunity!</p>
+                        <p style="padding:10px;"></p>
+                        <p>Sincerely,</p>
+                        <p style="padding:10px;"></p>
+                        <p>Kimberly Stewart</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Cover Letter content -->
+
+
+            <!-- Begin Resume content -->
+            <div class="container" id="resume-content">
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-2 col-md-8 content-header text-center">
+                        <h1 class="content-title">resume</h1>
+                        <hr class="content-title-hr">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-2 col-md-8 content-section">
+                        <!-- Objective -->
+                        <div class="panel  panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Objective</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>Recent graduate from University of Washington Tacoma with a B.S. in Computer Science and Systems seeking to contribute to a team as a Software Developer specializing in Front-end or Full-stack web development.</p>
+                            </div>
+                        </div>
+                        <!-- Education -->
+                        <div class="panel  panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Education</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p><span class="res-leaders">University of Washington Tacoma, WA</span>, <em>Graduated: August 2015</em><br />
+                                    Bachelor of science in Computer Science &amp; Systems<br />
+                                    GPA: 3.68, Dean’s List</p>
+                            </div>
+                        </div>
+                        <!-- Relevant coursework -->
+                        <div class="panel  panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Relevant Coursework</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>Database design &amp; development<br />
+                                    Human-centered design<br />
+                                    Software development &amp; QA<br />
+                                    Operating systems<br />
+                                    Computer networks<br />
+                                    Network security<br />
+                                    Design &amp; analysis of algorithms<br />
+                                    Data structures</p>
+                            </div>
+                        </div>
+                        <!-- Other skills -->
+                        <div class="panel  panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Other Relevant Skills</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>JavaScript, jQuery, SPA and MVC/MV* with Angular.js, responsive and mobile-first design with Bootstrap, Git/GitHub, SQL, XML, node.js, npm, grunt/gulp, REST, JSON, Jasmine, Yo, Yeoman, SQL, Photoshop, Illustrator, graphics, drawing, illustration, digital painting.</p>
+                            </div>
+                        </div>
+                        <!-- personal interests -->
+                        <div class="panel  panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Personal Interests</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>Drawing and painting, hiking, dance, Unity game development.</p>
+                            </div>
+                        </div>
+                        <!-- work history -->
+                        <div class="panel  panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Work History</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>
+                                    <span class="res-leaders">Digitizer, Supervisor, Customer Service, Machine Operator</span>, <em>Dates: 2000-2012</em><br />
+                                    Needleworks, Inc, Auburn, WA.<br />
+                                    Roles and duties:</p>
+                                <ul>
+                                    <li>Set up designs for digital embroidery production.</li>
+                                    <li>Supervising, training and production scheduling.</li>
+                                    <li>Took orders from customers by phone and walk-in.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Resume content -->
+
+
+
+
+
+            <!-- Begin Projects content -->
+            <div class="container" id="projects-content">
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-1 col-md-10 content-header text-center">
+                        <h1 class="content-title">projects</h1>
+                        <hr class="content-title-hr">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-1 col-md-10 content-section">
+                        <!-- Job search tool -->
+                        <div class="panel  panel-info">
+                            <div class="panel-body">
+                                <div class="media">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div class="media-left">
+                                            <p style="padding-top:7px;"></p>
+                                            <a href="http://cssgate.insttech.washington.edu/~stewak5/CareerSearch/index.php" target="new">
+                                                <img class="media-object img-responsive" src="img/jst_sm.png" alt="Job Search Web Tool">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <div class="media-body">
+                                            <p style="padding-top:7px;"></p>
+                                            <h4 class="media-heading">Job Search Web Tool</h4>
+                                            <p><em>- August, 2015</em></p>
+                                            <ul>
+                                                <li>Designed and modeled a database using MySQL Workbench.
+                                                    <ul>
+                                                        <li>Normalized data.</li>
+                                                        <li>Generated DDL and dependencies with an ER diagram.</li>
+                                                    </ul>
+                                                </li>
+                                                <li>Implemented web tool using PHP, MySQL, HTML, and CSS.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="panel-footer text-center">
+                                <p>
+                                    <a href="http://cssgate.insttech.washington.edu/~stewak5/CareerSearch/index.php" target="new">Visit web site</a><br />
+                                    <a href="https://github.com/rainmatter/JST_Old_v1" target="new">GitHub Repository</a><br />
+                                    <a href="https://github.com/rainmatter/JST_Old_v1/tree/master/design_documents" target="new">Database design documents</a><br />
+                                </p>
+                            </div>
+                        </div>
+                        
+
+                        <!-- PrioriSkill project -->
+                        <div class="panel  panel-info">
+                            <div class="panel-body">
+                                <div class="media">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div class="media-left">
+                                            <p style="padding-top:7px;"></p>
+                                            <a href="https://github.com/rainmatter/PrioriSkill_Functional_Prototype" target="new">
+                                                <img class="media-object img-responsive" src="img/logo-wh-brand.png" alt="Job Search Web Tool">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <div class="media-body">
+                                            <p style="padding-top:7px;"></p>
+                                            <h4 class="media-heading">PrioriSkill- Skill development organization tool (currently developing)</h4>
+                                            <p><em>- February, 2016</em></p>
+                                            <ul>
+                                                <li>Developed with JavaScript and Angular, as a SPA, using the MVC pattern.</li>  
+                                                <li>Built with Yeoman/Yo and Grunt, version control using Git/GitHub.</li>
+                                                <li>Visual design using HTML and Bootstrap.</li>
+                                                <li>Data storage and retrieval using JSON, HTTP, and REST.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel-footer text-center">
+                                <p>
+                                    Web site (in progress)<br />
+                                    <a href="https://github.com/rainmatter/PrioriSkill_Functional_Prototype" target="new">GitHub Repository</a><br />
+                                    <a href="https://github.com/rainmatter/PrioriSkill_Functional_Prototype/tree/master/design_documents" target="new">Database design documents</a><br />
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- School crowd funding -->
+                        <div class="panel panel-info">
+                            <div class="panel-body">
+                                <div class="media">
+                                    <div class="col-xs-12 col-sm-7">
+                                        <div class="media-body">
+                                            <p style="padding-top:7px;"></p>
+                                            <h4 class="media-heading">School Crowdfunding Web Site UX Prototype, team-based</h4>
+                                            <p><em>- March 2015</em></p>
+                                            <ul>
+                                                <li>Collaborated to design medium-fidelity prototype.</li>
+                                                <li>Performed and reported usability tests.</li>
+                                                <li>Emphasized iterative design, design proposals, user testing and presentations to pitch design ideas.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="media-right">
+                                            <p style="padding-top:7px;"></p>
+                                            <a href="https://moqups.com/Rainmatter/V0gpufEI/p:a946862bc" target="new">
+                                                <img class="media-object img-responsive" src="img/sch_sm.png" alt="School Crowdfunding UX Prototype">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer text-center">
+                                <p>
+                                    <a href="https://moqups.com/Rainmatter/V0gpufEI/p:a946862bc" target="new">Visit web site</a><br />
+                                    <a href="https://github.com/rainmatter/HCD_project_design_documents" target="new">Design documents</a><br />
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Repository search tool -->
+                        <div class="panel  panel-info">
+                            <div class="panel-body">
+                                <div class="media">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div class="media-left">
+                                            <p style="padding-top:7px;"></p>
+                                            <a href="https://github.com/rainmatter/completed_projects/tree/master/RepoSearch" target="new">
+                                                <img class="media-object img-responsive" src="img/repo_sm.png" alt="Repository Search Tool">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <div class="media-body">
+                                            <p style="padding-top:7px;"></p>
+                                            <h4 class="media-heading">Repository Search Tool, Agile team-based</h4>
+                                            <p><em>- March 2015</em></p>
+                                            <ul>
+                                                <li>Gathered requirements for documentation.</li>
+                                                <li>Developed UML diagrams for optimized OOP design.</li>
+                                                <li>Implemented tool in Java using Eclipse IDE and an SVN repository.</li>
+                                                <li>Designed GUI using NetBeans GUIBuilder.</li>
+                                                <li>Tested code using JUnit framework.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel-footer text-center">
+                                <p>
+                                    <a href="https://github.com/rainmatter/completed_projects/tree/master/RepoSearch" target="new">GitHub Repository</a><br />
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Needleworks web site -->
+                        <div class="panel  panel-info">
+                            <div class="panel-body">
+                                <div class="media">
+
+                                    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+                                        <div class="media-body">
+                                            <p style="padding-top:12px;"></p>
+                                            <h4 class="media-heading">Embroidery Factory Web Site</h4>
+                                            <p><em>- 2011</em></p>
+                                            <ul>
+                                                <li>Designed and implemented with HTML and CSS.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-5">
+                                        <div class="media-right">
+                                            <p style="padding-top:7px;"></p>
+                                            <a href="http://www.needleworkswa.com" target="new">
+                                                <img class="media-object img-responsive" src="img/nw_sm.png" alt="Embroidery Factory Web Site">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel-footer text-center">
+                                <p>
+                                    <a href="http://www.needleworkswa.com" target="new">Web site link</a><br />
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Online resume -->
+                        <div class="panel  panel-info">
+                            <div class="panel-body">
+                                <div class="media">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div class="media-left">
+                                            <p style="padding-top:7px;"></p>
+                                            <a href="index.html" target="new">
+                                                <img class="media-object img-responsive" src="img/res_sm.png" alt="Online Resume">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-7">
+                                        <div class="media-body">
+                                            <p style="padding-top:7px;"></p>
+                                            <h4 class="media-heading">Online Resume</h4>
+                                            <p><em>- January, 2016</em></p>
+                                            <ul>
+                                                <li>Designed as a responsive, mobile-first, and single-page application.</li>
+                                                <li>Designed with HTML, CSS, Bootstrap, and JavaScript.</li>
+                                                <li>Used GitHub for versioning.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel-footer text-center">
+                                <p>
+                                    <a href="index.html" target="new">Visit web site</a><br />
+                                    <a href="https://github.com/rainmatter/KSOnlineResume" target="new">GitHub Repository</a><br />
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Projects content -->
+
+
+            <!-- Begin Contact content -->
+            <div class="container" id="contact-content">
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-2 col-md-8 content-header text-center">
+                        <h1 class="content-title">contact me</h1>
+                        <hr class="content-title-hr">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-2 col-md-8 content-section">
+                        <p>If you are interested in learning more about my skills and experience, please contact me at:</p>
+                        <ul>
+                            <li><strong>Phone: </strong><a href="tel:253-334-9561">253-334-9561</a></li>
+                            <li><strong>Email: </strong> <a href="mailto:stewak5@uw.edu">stewak5@uw.edu</a></li>
+                        </ul>
+                        <p>Other essentials:
+                        <ul>
+                            <li><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/kimberly-stewart-aa43568b" target="new">Kimberly Stewart</a></li>
+                            <li><strong>GitHub: </strong><a href="https://github.com/rainmatter" target="new">RainMatter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End contact content -->
+
+
+
+        </div>
+
+
+
+        <!-- Begin footer -->
+        <footer class="row-footer">
+            <div class="container">
+                <div class="row">             
+                    <div class="col-xs-12 col-sm-4 col-sm-offset-7 col-md-3 col-md-offset-8">
+                        <p>
+                            <span class="contact-labels">Phone: </span><a href="tel:253-334-9561">253-334-9561</a><br />
+                            <span class="contact-labels">Email: </span> <a href="mailto:stewak5@uw.edu">stewak5@uw.edu</a><br />
+                            <span class="contact-labels">LinkedIn: </span><a href="https://www.linkedin.com/in/kimberly-stewart-aa43568b" target="new">Kimberly Stewart</a><br />
+                            <span class="contact-labels">GitHub: </span><a href="https://github.com/rainmatter" target="new">RainMatter</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End footer -->
+
+
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="jquery/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- My js file -->
+        <script src="js/resumejavascript.js"></script>
+
+    </body>
+</html>

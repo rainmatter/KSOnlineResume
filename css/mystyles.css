@@ -1,0 +1,165 @@
+/*
+Online Resume
+CSS sheet for my custom styles.
+ 
+    Created on : Jan 12, 2016, 12:50:45 PM
+    Author     : Kimberly Stewart
+    Last updated: 1/12/2016
+*/
+
+/*Start containers as hidden.*/
+#resume-content, #projects-content, #dessum-content, #contact-content {
+    display: none;
+}
+
+/***Nav-bar styles***/
+
+/*Size adjustment*/
+.navbar {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 15px;
+}
+.navbar-nav > li > a { 
+    padding-top: 7px !important; 
+    padding-bottom: 7px !important; }
+.navbar { 
+    min-height: 32px !important; 
+}
+
+/*Color adjustment*/
+.navbar-style .navbar-nav > .active > a {
+  background: #C7D9FC;
+  color: #1A6063;
+  font-weight: 600;
+}
+.navbar-style .navbar-nav > .active > a:hover {
+  background: #C7D9FC;
+  color: #1A6063;
+}
+.navbar-style .navbar-nav > .active > a:focus {
+  background: #C7D9FC;
+  color: #1A6063;
+}
+.navbar-style .navbar-nav > .open > a {
+  background: #C7D9FC;
+  color: #1A6063;
+}
+.navbar-style .navbar-nav > .open > a:hover {
+  background: #C7D9FC;
+  color: #1A6063;
+}
+.navbar-style .navbar-nav > .open > a:focus {
+  background: #C7D9FC;
+  color: #1A6063;
+}
+
+
+/*Jumbotron & header*/
+.jumbotron {
+    background: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+#page-title {
+    color: #16637D;
+    font-variant: small-caps;
+    font-size: 60px;
+    font-family: "Georgia", "Times New Roman", "serif";
+}
+#page-sub-title {
+    color: #0D4D42;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 16px;
+}
+#page-title-hr {
+    width: 60%;
+    border-top: 1px solid #ccc;
+}
+
+
+/*Content area*/
+.container {
+    padding-bottom: 20px;
+}
+.content-area {
+    background: #BDF1FF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content-section, .content-header {
+    background: #F7FFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: solid;
+    border-color: #A7C9C4;
+    border-width: 10px;
+    
+}
+
+.content-section {
+    padding-bottom: 40px;
+    border-top: none;
+}
+
+.content-header {
+    padding-top: 20px;
+    border-bottom: none;
+}
+.content-title {
+    color: #16637D;
+    font-variant: small-caps;
+    font-size: 40px;
+    font-family: "Georgia", "Times New Roman", "serif";
+    letter-spacing: 5px;
+}
+.content-title-hr {
+    width: 60%;
+    border-top: 1px solid #ddd;
+}
+
+
+/*Footer styles*/
+footer {
+    background: #356382;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+footer a {
+    color: #A694D1;
+}
+
+footer a:hover {
+    color: #3E3557;
+}
+.contact-labels {
+    font-weight: 600;
+    font-size: 15px;
+    color: #D6FFFF;
+}
+
+/*Resume styles*/
+.res-leaders {
+    font-weight: 600;
+}
+
+.panel em {
+    color: #A694D1;
+}
+
+
+/*Project styles*/
+.media-object {
+    border-style: solid;
+    border-color: #D2C3F7;
+    border-width: 8px;
+}
+.media-heading {
+    font-weight: 600;
+    color: #5A89DB;
+}
